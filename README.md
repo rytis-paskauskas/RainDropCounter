@@ -5,7 +5,7 @@ Most of the work was done in `Python 3.11`  on a standard CPU-laptop running Lin
 ### Custom python packages
 Other than sample code, the reusable code is organised in two packages 
 ```python
-import audio_eencoder # custom signal processing
+import audio_encoder # custom signal processing
 import rainml # study specific code, most notably
 import rainml.tfmodels # TensorFlow model definitions
 ```
