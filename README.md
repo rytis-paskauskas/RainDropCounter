@@ -2,7 +2,14 @@
 
 ## Software and hardware
 Most of the work was done in `Python 3.11`  on a standard CPU-laptop running Linux operating system. 
-### Custom python code
+### Custom python packages
+Other than sample code, the reusable code is organised in two packages 
+```python
+import audio_eencoder # custom signal processing
+import rainml # study specific code, most notably
+import rainml.tfmodels # TensorFlow model definitions
+```
+
 ```python
 from audio_encoder.augment import augment
 ```
