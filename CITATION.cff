@@ -7,6 +7,8 @@ authors:
 title: "High-resolution raindrop counting via instantaneous frequency sensing on hydrophobic elastic membranes"
 subtitle: "Supplementary Materials"
 version:
-doi: 
+identifiers:
+- type: doi
+  value: 
 date-released: 
 url: "https://github.com/rytis-paskauskas/RainDropCounter"
