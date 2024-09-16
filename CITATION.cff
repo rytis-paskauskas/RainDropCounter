@@ -1,1 +1,12 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Paškauskas"
+  given-names: "Rytis"
+  orcid: "https://orcid.org/0009-0008-3240-4778"
+title: "High-resolution raindrop counting via instantaneous frequency sensing on hydrophobic elastic membranes"
+subtitle: "Supplementary Materials"
+version:
+doi: 
+date-released: 
+url: "https://github.com/rytis-paskauskas/RainDropCounter"
