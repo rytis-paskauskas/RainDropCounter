@@ -1,5 +1,5 @@
 ![Snapshot of rainfall](./img/Shotcut_00_00_04_333_cropped.png)
-# Rain drop counter data, code snippets and tutorials
+# Rain drop counter: data, code snippets, and tutorials
 
 ## YouTube tutorials
 - Want to build a device? See this [how to build a basic device tutorial](https://youtu.be/yDxtZpp3iUc)
