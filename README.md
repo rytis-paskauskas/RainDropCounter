@@ -1,4 +1,10 @@
-# Rain drop counter data and code
+![Snapshot of rainfall](./img/Shotcut_00_00_04_333_cropped.png)
+# Rain drop counter data, code snippets and tutorials
+
+## YouTube tutorials
+- Want to build a device? See this ![how to build a basic device tutorial](https://youtu.be/yDxtZpp3iUc)
+- Got a recording. What's next? See this ![audio testing with Audacity tutorial](https://youtu.be/BJxE__xmKJg)
+- Want to quickly annotate a recording? See this ![marking acoustic events in Audacity tutorial](https://youtu.be/3fyaKuSi178)
 
 ## Software and hardware
 Most of the work was done in `Python 3.11`  on a standard CPU-laptop running Linux operating system. 
@@ -24,4 +30,5 @@ Note that `Tensorflow 2.15` python package is required at this time for loading 
 - ds :: datasets (only test is included at the moment to save space)
 - m :: models in `keras` format.
 
-
+  
+https://youtu.be/BJxE__xmKJg
