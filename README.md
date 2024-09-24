@@ -29,7 +29,3 @@ pacman -S sox
 apt install sox
 ```
 It has been tested on Linux only. My understanding is that SoX should be available for Windows and OSX.
-
-Note that `Tensorflow 2.15` python package is required at this time for loading models in keras format, as v2.16 introduced some breaking changes.
-- ds :: datasets (only test is included at the moment to save space)
-- m :: models in `keras` format.
