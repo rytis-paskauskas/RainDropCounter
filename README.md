@@ -23,9 +23,15 @@ from audio_encoder.augment import augment
 The `augment` routine uses system calls to the `sox` audio processing utility. It should be available for Windows and OSX.
 
 Note that `Tensorflow 2.15` python package is required at this time for loading models in keras format, as v2.16 introduced some breaking changes.
-## Directory structure
-- inputs :: contains audio recordings (wav) and annotation (txt) files. The recordings and annotations can be loaded using the Audacity software.
-- augment :: encoded recordings with various parameters in `TFRecord` format. The datasets are generated from these files
+
+## Folder structure
+The **data** folder contains the actual data used in the paper. 
+The **sandbox** folder contains code snippets to help reproduce the data used in the paper.
+
+### data folder
+The **inputs** folder contains audio recordings (wav) and Audacity-ready annotation (txt) files. The recordings and annotations can be loaded using the Audacity software.
+
+The **augment** folder contains encoded recordings with various parameters in `TFRecord` format. The datasets are generated from these files
 - config :: data splitting
 - ds :: datasets (only test is included at the moment to save space)
 - m :: models in `keras` format.
