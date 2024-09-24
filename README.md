@@ -12,6 +12,7 @@ The **sandbox** folder contains code snippets to help reproduce the data used in
 
 ## Software and hardware
 Most of the work was done in `Python 3.11`  on a standard CPU-laptop running a Linux OS.
+Note that `Tensorflow v2.15` python package is required at this time for loading models in keras format, as v2.16 introduced some breaking changes.
 
 The reusable code is organised in a package
 ```python
@@ -20,6 +21,8 @@ import rainml
 # For example, TensorFlow model definitions are here:
 import rainml.tfmodels
 ```
+
+
 
 ### Linux OS related
 The `augment` routine (`from rainml.augment import augment`) uses system calls to the `sox` audio processing utility. 
