@@ -6,6 +6,10 @@
 - Got a recording. What's next? See this [audio testing with Audacity tutorial](https://youtu.be/BJxE__xmKJg)
 - Want to quickly annotate a recording? See this [marking acoustic events in Audacity tutorial](https://youtu.be/3fyaKuSi178)
 
+## Folder structure
+The **data** folder contains the actual data used in the paper. 
+The **sandbox** folder contains code snippets to help reproduce the data used in the paper.
+
 ## Software and hardware
 Most of the work was done in `Python 3.11`  on a standard CPU-laptop running a Linux OS.
 
