@@ -29,6 +29,3 @@ Note that `Tensorflow 2.15` python package is required at this time for loading 
 - config :: data splitting
 - ds :: datasets (only test is included at the moment to save space)
 - m :: models in `keras` format.
-
-  
-https://youtu.be/BJxE__xmKJg
